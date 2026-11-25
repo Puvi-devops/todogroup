@@ -1,0 +1,123 @@
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Contact - TaskMate</title>
+
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="contact.css">
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <header class="navbar">
+
+        <a href="home.html" class="logo">TaskMate</a>
+
+        <nav class="nav-links">
+            <a href="home.html">Home</a>
+            <a href="about.html">About</a>
+            <a href="contact.html" class="active">Contact</a>
+        </nav>
+
+    </header>
+
+    <!-- Main Content -->
+    <main class="page-container">
+
+        <h1>Contact Us</h1>
+
+        <p>
+            Have an idea to make TaskMate better?
+            We'd love to hear from you.
+        </p>
+
+        <!-- Contact Cards -->
+        <div class="contact-cards">
+
+            <div class="card">
+
+                <h2>Email</h2>
+
+                <p>
+                    taskmate.team@example.com
+                </p>
+
+            </div>
+
+            <div class="card">
+
+                <h2>GitHub</h2>
+
+                <p>
+                    Open an issue in our repository.
+                </p>
+
+                <a href="#" class="github-link">
+                    Visit GitHub
+                </a>
+
+            </div>
+
+        </div>
+
+        <!-- Feedback Form -->
+        <section class="feedback">
+
+            <h2>Send Feedback</h2>
+
+            <form id="feedbackForm">
+
+                <label for="name">Name</label>
+
+                <input
+                    type="text"
+                    id="name"
+                    placeholder="Your name"
+                    required
+                >
+
+                <label for="email">Email</label>
+
+                <input
+                    type="email"
+                    id="email"
+                    placeholder="you@example.com"
+                    required
+                >
+
+                <label for="message">Your feedback</label>
+
+                <textarea
+                    id="message"
+                    rows="5"
+                    placeholder="What should we add or fix?"
+                    required
+                ></textarea>
+
+                <button type="submit">
+                    Send Feedback
+                </button>
+
+                <p id="feedbackMessage"></p>
+
+            </form>
+
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>© 2026 TaskMate. Built by our team on GitHub.</p>
+    </footer>
+
+    <script src="contact.js"></script>
+
+</body>
+</html>

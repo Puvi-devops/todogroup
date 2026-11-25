@@ -1,0 +1,66 @@
+
+/* How to Use Section */
+.how-to {
+    margin-top: 40px;
+}
+
+.how-to h2 {
+    margin-bottom: 25px;
+}
+
+.how-to ol {
+    padding-left: 40px;
+    margin-bottom: 30px;
+}
+
+.how-to li {
+    font-size: 18px;
+    line-height: 1.9;
+}
+
+.how-to p {
+    margin-top: 20px;
+}
+
+/* Team Section */
+.team-section {
+    margin-top: 45px;
+}
+
+.team-section h2 {
+    margin-bottom: 25px;
+}
+
+/* Team Cards */
+.team-cards {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 25px;
+}
+
+.team-cards .card {
+    min-height: 180px;
+    transition: transform 0.3s;
+}
+
+.team-cards .card:hover {
+    transform: translateY(-5px);
+}
+
+.team-cards h3 {
+    font-size: 23px;
+    margin-bottom: 25px;
+}
+
+.team-cards p {
+    font-size: 18px;
+}
+
+/* Mobile Responsive */
+@media (max-width: 750px) {
+
+    .team-cards {
+        grid-template-columns: 1fr;
+    }
+
+}
